@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/*banner头部*/
+.header{width:100%;max-width:1920px;height:993px;position:relative;overflow:hidden;}
+.header .banner{width:100%;max-width:1920px;height:auto;}
+.header .banner .banner01{width:100%;height:331px;background:url(../images/banner01.jpg) no-repeat center;}
+.header .banner .banner02{width:100%;height:331px;background:url(../images/banner02.jpg) no-repeat center;}
+.header .banner .banner03{width:100%;height:331px;background:url(../images/banner03.jpg) no-repeat center;}
+.header .banner_top{width:100%;max-width:1920px;height:84px;background-color:rgba(53,190,249,0.1);position:absolute;top:0;left:0;}
+.header .banner_top .w1200{width:1200px;height:auto;margin:0 auto;position:relative;}
+.header .banner_top .w1200 .travel-net{width:65px;height:65px;background:url(../images/travel-net.png) no-repeat center;position:absolute;top:8px;}
+.header .banner_top .w1200 h4{font-size:18px;line-height:38px;color:white;position:absolute;top:32px;left:70px;}
+.header .banner_top .w1200 .ul1{width:720px;height:66px;position:absolute;top:18px;right:0;}
+.header .banner_top .w1200 .ul1>li{float:left;font-size:18px;line-height:66px;color:black;width:144px;height:66px;text-align:center;position:relative;}
+.header .banner_top .w1200 .ul1 .li .img1{width:19px;height:19px;background:url(../images/triangle.png) no-repeat center;position:absolute;top:23px;right:3px;}
+.header .banner_top .w1200 .ul1 .li2 .img2{width:19px;height:19px;background:url(../images/triangle.png) no-repeat center;position:absolute;top:23px;right:3px;}
+.header .banner_top .w1200 .ul1 .li .ul2{width:144px;height:160px;background-color:#30b6e9;text-align:center;font-size:18px;line-height:40px;margin-top:0px;display:none;}
+.header .banner_top .w1200 .ul1 .li .ul2 li{width:144px;height:25%;}
+.header .banner_top .w1200 .ul1 li:hover{background-color:#30b6e9;}
+.header .banner_top .w1200 .ul1 .li .ul2 li:hover{background-color:#1c6a87;}
+.header .banner_top .w1200 .ul1 li:hover .ul2{display:block;}
+.header .banner_top .w1200 .ul1 .hover{width:144px;height:18px;background-color:#1c6a87;position:absolute;top:-18px;display:none;}
+.header .banner_top .w1200 .ul1 li:hover .hover{display:block;}
+
+/*精选目的地*/
+.destination{width:100%;max-width:1920px;height:920px;overflow:hidden;}
+.destination .sichuan{width:1200px;height:920px;margin:0 auto;text-align:center;position:relative;}
+.destination .sichuan h2{font-size:36px;line-height:212px;margin-bottom:-100px;}
+.destination .sichuan h4{font-size:24px;line-height:83px;}
+.destination .sichuan .jzg{width:695px;height:366px;background:url(../images/destination01.jpg) no-repeat center;color:white;box-shadow:4px 4px 4px #ddd;}
+.destination .sichuan .jzg h2{font-size:24px;line-height:81px;text-align:left;padding-left:44px;margin-bottom:-100px;padding-top:130px;}
+.destination .sichuan .jzg p{text-align:left;display:block;width:252px;height:142px;font-size:14px;line-height:30px;padding:110px 406px 0 44px;}
+.destination .sichuan .ems{width:695px;height:410px;background:url(../images/destination02.jpg) no-repeat center;position:absolute;top:560px;color:white;box-shadow:4px 4px 4px #ddd;}
+.destination .sichuan .ems h2{font-size:24px;line-height:81px;text-align:left;padding-left:44px;margin-bottom:-100px;padding-top:130px;}
+.destination .sichuan .ems p{text-align:left;display:block;width:252px;height:142px;font-size:14px;line-height:25px;padding:110px 406px 0 44px;}
+.destination .sichuan .pic{width:475px;height:446px;background:url(../images/destination03.jpg) no-repeat center;position:absolute;top:250px;right:0;}
+.destination .sichuan .more{width:478px;height:210px;background-color:#30b6e9;position:absolute;top:730px;right:0;}
+.destination .sichuan .more h2{font-size:53px;line-height:113px;color:white;padding-top:50px;}
+.destination .sichuan .more p{font-size:119px;line-height:252px;margin-top:-160px;color:white;}
+
+/*景点新玩法*/
+.play{width:100%;max-width:1920px;height:426px;overflow:hidden;}
+.play .travel{width:1200px;height:426px;margin:0 auto;text-align:center;position:relative;}
+.play .travel h2{font-size:36px;line-height:212px;margin-bottom:-100px;}
+.play .travel h4{font-size:24px;line-height:83px;}
+.play .travel .zjy{width:275px;height:275px;background:url(../images/play01.jpg) no-repeat center;position:absolute;top:202px;box-shadow:4px 4px 4px #ddd;}
+.play .travel .zjy p,.play .travel .sj p,.play .travel .boat p,.play .travel .rope p{font-size:30px;line-height:83px;color:white;padding-top:145px;}
+.play .travel .sj{width:275px;height:275px;background:url(../images/play02.jpg) no-repeat center;position:absolute;top:202px;left:309px;box-shadow:4px 4px 4px #ddd;}
+.play .travel .boat{width:275px;height:275px;background:url(../images/play03.jpg) no-repeat center;position:absolute;top:202px;left:617px;box-shadow:4px 4px 4px #ddd;}
+.play .travel .rope{width:275px;height:275px;background:url(../images/play04.jpg) no-repeat center;position:absolute;top:202px;right:0px;box-shadow:4px 4px 4px #ddd;}
+
+/*住宿新体验*/
+.get{width:100%;max-width:1920px;height:426px;overflow:hidden;}
+.get .yard{width:1200px;height:426px;margin:0 auto;text-align:center;position:relative;}
+.get .yard h2{font-size:36px;line-height:212px;margin-bottom:-100px;}
+.get .yard h4{font-size:24px;line-height:83px;}
+.get .yard .inn{width:275px;height:275px;background:url(../images/get01.jpg) no-repeat center;position:absolute;top:202px;box-shadow:4px 4px 4px #ddd;}
+.get .yard .inn p,.get .yard .camp p,.get .yard .campus p,.get .yard .residence p{font-size:30px;line-height:83px;color:white;padding-top:145px;}
+.get .yard .camp{width:275px;height:275px;background:url(../images/get02.jpg) no-repeat center;position:absolute;top:202px;left:309px;box-shadow:4px 4px 4px #ddd;}
+.get .yard .campus{width:275px;height:275px;background:url(../images/get03.jpg) no-repeat center;position:absolute;top:202px;left:617px;box-shadow:4px 4px 4px #ddd;}
+.get .yard .residence{width:275px;height:275px;background:url(../images/get04.jpg) no-repeat center;position:absolute;top:202px;right:0px;box-shadow:4px 4px 4px #ddd;}
+
+/*关于我们*/
+.about{width:100%;max-width:1920px;height:888px;overflow:hidden;}
+.about .us{width:1200px;height:888px;margin:0 auto;text-align:center;position:relative;}
+.about .us h2{font-size:36px;line-height:212px;margin-bottom:-100px;}
+.about .us h4{font-size:24px;line-height:83px;}
+.about .us .our{width:409px;height:754px;background:url(../images/about.jpg) no-repeat center;position:absolute;top:202px;}
+.about .us .taobao{width:358px;height:359px;background:url(../images/taobao.jpg) no-repeat center;position:absolute;top:202px;left:445px;}
+.about .us .weixin{width:358px;height:359px;background:url(../images/weixin.jpg) no-repeat center;position:absolute;top:202px;right:0;}
+.about .us .china{width:758px;height:362px;background-color:#30b6e9;position:absolute;top:594px;right:0;font-size:25px;color:white;text-align:left;}
+.about .us .china span{display:block;padding:80px 0 20px 30px;}
+.about .us .china p{line-height:40px;width:654px;height:156px;padding:0 0 0 30px;text-indent:2em;}
+
+/*加入我们*/
+.jion{width:100%;max-width:1920px;height:760px;overflow:hidden;}
+.jion .me{width:1200px;height:760px;margin:0 auto;text-align:center;position:relative;}
+.jion .me h2{font-size:36px;line-height:212px;margin-bottom:-100px;}
+.jion .me h4{font-size:24px;line-height:83px;}
+.jion .me .love{width:1199px;height:481px;background:url(../images/love.jpg) no-repeat center;position:absolute;top:250px;left:0;}
+
+/*foot底部*/
+.foot{width:100%;max-width:1920px;height:130px;overflow:hidden;}
+.foot .picture{height:130px;background:url(../images/foot.jpg) no-repeat center;}
